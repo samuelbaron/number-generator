@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151a22;
+  color: #ffffff;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.header {
+  margin-top: 6vh;
+  text-align: center;
+  font-size: 4rem;
+}
+.text-area {
+  text-align: center;
+  margin-right: 3vh;
+  color: #307dc1;
+  font-size: 2rem;
+}
+.flex-wrapper {
+  margin-left: 10%;
+  width: 80%;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+}
